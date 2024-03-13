@@ -101,9 +101,6 @@ Mileage  = st.number_input('Milage')
 #---------------------------------------------------------
 Levy = st.number_input('Levy')
 #---------------------------------------------------------
-# df = pd.DataFrame({'Manufacturer':manu2, 'Model': Model, 'Category': Category, 'Leather interior':leather, 'Fuel type':Fuel,
-#               'Mileage': Mileage, 'Gear box type': Gear,'Cylinders': Cylinders, 'Drive wheels': Drive, 'Wheel': Weel, 'Color':color,
-#               'Levy': Levy,'Engine volume': Engine, 'Airbags': Airbags, 'Age': Age}, index = [0])
 
 
 df = pd.DataFrame({'Manufacturer': manu2, 'Model': Model, 'Category': Category, 'Leather interior':leather, 'Fuel type':Fuel,
